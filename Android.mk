@@ -9,5 +9,6 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_DEX_PREOPT := false
 LOCAL_MODULE_SUFFIX := .apk
 LOCAL_SRC_FILES := prebuilt/org.fdroid.fdroid.apk
+LOCAL_REQUIRED_MODULES := F-DroidPrivilegedExtension
 
 include $(BUILD_PREBUILT)
